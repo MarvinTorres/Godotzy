@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SEn+Ow0jwK41YgHYR8y1r/D7e6G8pEN8gVLgfEykssYmoVJbs4ePSPfWP7dTcJ1yFIjLmM2WgSvqIBXaQBUvxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Learning\\Documents\\Godotzy\\Godotzy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Learning\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\Learning\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

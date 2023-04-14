@@ -1,0 +1,46 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://DiceController.cs" type="Script" id=1]
+[ext_resource path="res://Images/dieWhite_border3.png" type="Texture" id=2]
+[ext_resource path="res://Images/dieWhite_border5.png" type="Texture" id=3]
+[ext_resource path="res://Images/dieWhite_border2.png" type="Texture" id=4]
+[ext_resource path="res://Images/dieWhite_border1.png" type="Texture" id=5]
+[ext_resource path="res://Images/dieWhite4.png" type="Texture" id=6]
+[ext_resource path="res://Images/dieWhite6.png" type="Texture" id=7]
+[ext_resource path="res://Images/dieWhite5.png" type="Texture" id=8]
+[ext_resource path="res://Images/dieWhite_border6.png" type="Texture" id=9]
+[ext_resource path="res://Images/dieWhite_border4.png" type="Texture" id=10]
+[ext_resource path="res://Images/dieWhite3.png" type="Texture" id=11]
+[ext_resource path="res://Images/dieWhite1.png" type="Texture" id=12]
+[ext_resource path="res://Images/dieWhite2.png" type="Texture" id=13]
+[ext_resource path="res://DiceArea2D.cs" type="Script" id=14]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 10 ), ExtResource( 3 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Locked",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "Unlocked",
+"speed": 0.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 32.75, 33 )
+
+[node name="Dice" type="Node2D" groups=["Dice"]]
+position = Vector2( 514, 276 )
+script = ExtResource( 1 )
+
+[node name="DiceArea2D" type="Area2D" parent="."]
+script = ExtResource( 14 )
+
+[node name="DiceSprite" type="AnimatedSprite" parent="DiceArea2D"]
+frames = SubResource( 1 )
+animation = "Unlocked"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiceArea2D"]
+shape = SubResource( 2 )

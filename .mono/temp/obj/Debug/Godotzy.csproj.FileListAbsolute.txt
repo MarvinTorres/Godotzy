@@ -1,0 +1,9 @@
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.csproj.AssemblyReference.cache
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.AssemblyInfoInputs.cache
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.AssemblyInfo.cs
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.csproj.CoreCompileInputs.cache
+C:\Users\Learning\Documents\Godotzy\.mono\temp\bin\Debug\Godotzy.dll
+C:\Users\Learning\Documents\Godotzy\.mono\temp\bin\Debug\Godotzy.pdb
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.dll
+C:\Users\Learning\Documents\Godotzy\.mono\temp\obj\Debug\Godotzy.pdb
